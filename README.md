@@ -1,6 +1,6 @@
  # 🛍️ Modern E-Commerce Store
 
-![E-Commerce Screenshot](../src/assets/Screenshot 2025-05-12 192032.png)
+![E-Commerce Screenshot](./src/assets/Screenshot 2025-05-12 192032.png)
 ## ✨ Features
 
 ### Product Showcase

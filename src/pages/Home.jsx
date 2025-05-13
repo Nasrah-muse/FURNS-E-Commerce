@@ -8,7 +8,7 @@ import living from "../assets/living.png";
  function Home() {
   return (
     <>
-      <div className="flex items-center  flex-col-reverse md:flex-row justify-between">
+      <div className="flex items-center  flex-col-reverse md:flex-row justify-between mt-20">
         {/* left-side */}
         <div className="md:w-1/2 space-y-5 mt-14 md:mt-0">
           <h2 className="text-2xl">New Products</h2>

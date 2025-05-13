@@ -88,7 +88,7 @@ function Products() {
   };
 
   return (
-    <div className={`${themeStyles.background} ${themeStyles.text} min-h-screen`}>
+    <div className={`${themeStyles.background} ${themeStyles.text} min-h-screen mt-20`}>
       {/* Filters section */}
       <div className={`${themeStyles.filterSection} p-4 mb-4 rounded-lg`}>
         <div className="flex flex-wrap items-center justify-between gap-4">

@@ -2,7 +2,7 @@ import AboutImage from "../assets/about.jpeg";
 
 function About() {
   return (
-    <div>
+    <div className="mt-20">
       <h1 className="text-center text-xl leading-10">
         Furns is a global furniture destination for somethings. We sell
         cutting-edge <br /> furniture and offer a wide variety of

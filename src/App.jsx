@@ -35,8 +35,9 @@ const AppLayout = () => {
           <Route path="/products" element={<Products />} />
         </Routes>
       </main>
-      <Footer />
      </div>
+           <Footer />
+
     </div>
   );
 };

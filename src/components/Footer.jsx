@@ -1,13 +1,14 @@
 import { useTheme } from "../context/ThemeContext";
 
- 
 function Footer() {
-    const {theme} = useTheme()
-  return (
-    <div className={` text-center p-10 mt-4 text-white ${theme === 'dark'? 'bg-slate-800 ': 'bg-orange-500 '}`}>
-      <h1>copyight &copy; Furns. All right reserved</h1>
-    </div>
-  );
+    const { theme } = useTheme();
+    return (
+        <footer className={`w-full text-center py-10 ${theme === 'dark' ? 'bg-slate-800' : 'bg-orange-500'} text-white`}>
+            <div className="container mx-auto">
+                <h1>copyright &copy; Furns. All rights reserved</h1>
+            </div>
+        </footer>
+    );
 }
 
 export default Footer;

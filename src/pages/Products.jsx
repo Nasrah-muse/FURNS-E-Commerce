@@ -89,11 +89,9 @@ function Products() {
 
   return (
     <div className={`${themeStyles.background} ${themeStyles.text} min-h-screen mt-20`}>
-      {/* Filters section */}
-      <div className={`${themeStyles.filterSection} p-4 mb-4 rounded-lg`}>
+       <div className={`${themeStyles.filterSection} p-4 mb-4 rounded-lg`}>
         <div className="flex flex-wrap items-center justify-between gap-4">
-          {/* Category filter */}
-          <div>
+           <div>
             <label htmlFor="category" className="block mb-1 font-medium">Category</label>
             <select
               id="category"
@@ -110,8 +108,7 @@ function Products() {
             </select>
           </div>
 
-          {/* Price range filter */}
-          <div>
+           <div>
             <label className="block mb-1 font-medium">Price Range</label>
             <div className="flex items-center gap-2">
               <input
@@ -132,8 +129,7 @@ function Products() {
             </div>
           </div>
 
-          {/* Reset filters */}
-          <button
+           <button
             onClick={resetFilters}
             className={`self-end py-2 px-4 rounded hover:transition-colors ${themeStyles.resetButton}`}
           >
@@ -142,8 +138,7 @@ function Products() {
         </div>
       </div>
 
-      {/* Products header */}
-      <div className={`${themeStyles.headerSection} flex items-center justify-between p-3 rounded-lg mb-4`}>
+       <div className={`${themeStyles.headerSection} flex items-center justify-between p-3 rounded-lg mb-4`}>
         <h1>{filteredData.length} products</h1>
         <div>
           <select

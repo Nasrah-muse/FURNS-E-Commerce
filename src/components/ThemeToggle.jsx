@@ -12,8 +12,7 @@ export default function ThemeToggle({ className = '' }) {
           ? 'bg-slate-800 text-white hover:bg-gray-600' 
           : 'bg-white text-gray-700 hover:bg-gray-300'
       }`}
-      aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-    >
+     >
       {theme === 'dark' ? <FiSun size={18} /> : <FiMoon size={18} />}
     </button>
   );
